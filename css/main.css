@@ -1,4 +1,186 @@
+html {
+    font-size: 16px;
+}
+
 body {
-    background-color: gray;
-    color: cyan;
+    background-color: black;
+    color: lightgray;
+}
+
+main {
+    position: relative;
+    top: 4rem;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.1s color;
+}
+
+a:link {
+    color: teal;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+    height: 2rem;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+    padding-right: 0.5rem;
+}
+
+header nav ul li:last-child {
+    padding-right: 1rem;
+}
+
+/* Main styles */
+
+.sub-header {
+    color: rgb(125, 125, 125);
+}
+
+/* WELCOME */
+
+#welcome {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 2.5rem;
+}
+
+#welcome-header {
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+
+/* WAI */
+
+#wai {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+#wai-header {
+    margin-bottom: 0.2rem;
+}
+
+#wai-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    margin-top: 0.625rem;
+}
+
+.wai-block {
+    width: 25%;
+    margin: 0.5rem;
+    border: white 1px solid;
+    padding: 0.75rem;
+}
+
+.wai-block-header {
+    font-style: italic;
+    margin-bottom: 0.3125rem;
+}
+
+/* WHERE */
+
+#where {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+
+#where-header {
+    margin-bottom: 0.5rem;
+}
+
+#where-icons-container {
+    margin-top: 0.75rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    width: 50%;
+    flex-grow: 2;
+}
+
+/* OTHER */
+
+#other {
+    display: flex;
+    margin-bottom: 2.5rem;
+    flex-direction: column;
+}
+
+#other-header {
+    margin-bottom: 0.75rem;
+}
+
+#other-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#other-list li 
+{
+    list-style-type: none;
+    padding: 0.5rem;
+    width: 75%;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    position: relative;
+    top: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(25, 25, 25);
+    z-index: 100;
+}
+
+footer a {
+    padding-right: 1rem;
 }
