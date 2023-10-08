@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    overflow-x: hidden;
 }
 
 body {
@@ -68,6 +69,7 @@ header nav ul li:last-child {
 
 .sub-header {
     color: rgb(125, 125, 125);
+    font-size: 1rem;
 }
 
 /* WELCOME */
@@ -77,6 +79,7 @@ header nav ul li:last-child {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: 2.5rem;
     width: 50%;
     margin-bottom: 2.5rem;
 }
@@ -170,17 +173,18 @@ header nav ul li:last-child {
 
 footer {
     display: flex;
-    position: relative;
-    top: 4rem;
+    position: fixed;
+    bottom: 0;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 2rem;
-    padding: 0.5rem;
+    height: 2.25rem;
+    padding-left: 1rem;
     background-color: rgb(25, 25, 25);
     z-index: 100;
 }
 
 footer a {
-    padding-right: 1rem;
+    padding-right: 1.5rem;
 }
+
