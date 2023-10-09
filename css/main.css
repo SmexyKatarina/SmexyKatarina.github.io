@@ -17,6 +17,14 @@ main {
     margin-bottom: -2.25rem;
 }
 
+#tablet {
+    display: block;
+}
+
+#phone {
+    display: none;
+}
+
 a {
     text-decoration: none;
     transition: 0.1s color;
@@ -184,13 +192,13 @@ footer {
     align-items: center;
     width: 100%;
     height: 2.25rem;
-    padding-left: 1rem;
+    padding: 0 1rem;
     background-color: rgb(25, 25, 25);
     z-index: 100;
 }
 
 footer a {
-    padding-right: 1.5rem;
+    padding-right: 2rem;
 }
 
 
