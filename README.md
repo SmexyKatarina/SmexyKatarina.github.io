@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# TODO
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a temporary README file, it is simply for handling all of the features listed below in a orderly fashion
 
-## Available Scripts
+All features listed could make it into the final product or it could not, nothing listed is going to 100% be what it says.
 
-In the project directory, you can run:
+New features could/can be added later on after the MVP is created and up and running.
 
-### `npm start`
+- Header
+  - Nav menu heading to each page
+  - Simple icon
+  - Opening/closing animation
+  - Styling and interactivity of the buttons
+- Footer
+  - Contains useful project information (Project link, Project name, Project languages, etc)
+  - Styling and interactivity of the links and related information
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Pages
+  - Home page
+    - Contains some simple information to cut into the different pages
+    - Pages include but not limited to; projects, social media, about, contact
+    - Summarys of the individual pages with *least* information given to prevent copy and pasting into other routes
+  - Projects page
+    - Projects will be grabbed from the GitHub API and put through into the page grabbing all my currently *public* projects
+    - All projects will be in some sort of tiling function
+    - Clicking on a project will bring it to an information page about the project. (Date created, last updated, used languages, etc)
+    - Links will be included to redirect to the GitHub page directed
+  - Social Media (Might be scratched)
+    - All social medias that I'm currently attached to.
+    - Some pictures (?)
+  - About
+    - A short description of me and who I am
+    - Some hobbys, activitys, daily schedule, etc.
+  - Contact
+    - Any contact information that is required to reach me directly.
+    - Availability
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Interactivity, Styling and accessability
+  - Make website as interactable as possible and make it easy to notice something interactable
+  - Styling to accomodate legibility of the text and positioning of the text
+  - Accessability towards different screen users, mobile and such.
+ 
+- Other things to think about
+  - Maybe make a form to send a direct email
+  - Maybe link examples
+  - Maybe make a small wiki for my self of different things and make it public.
