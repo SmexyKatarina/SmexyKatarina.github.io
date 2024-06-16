@@ -21,7 +21,8 @@ New features could/can be added later on after the MVP is created and up and run
     - ~~Pages include but not limited to; projects, social media, about, contact~~
     - ~~Summarys of the individual pages with *least* information given to prevent copy and pasting into other routes~~
   - Projects page
-    - Projects will be grabbed from the GitHub API and put through into the page grabbing all my currently *public* projects
+    - ~~Projects will be grabbed from the GitHub API and put through into the page grabbing all my currently *public* projects~~ Impossible to do through GitHub pages without hosting a server to grab the info from which is out of the scope that I wanted
+    - Projects will be manually imported
     - All projects will be in some sort of tiling function
     - Clicking on a project will bring it to an information page about the project. (Date created, last updated, used languages, etc)
     - Links will be included to redirect to the GitHub page directed
