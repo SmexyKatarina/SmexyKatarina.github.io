@@ -7,19 +7,19 @@ All features listed could make it into the final product or it could not, nothin
 New features could/can be added later on after the MVP is created and up and running.
 
 - Header
-  - Nav menu heading to each page
+  - ~~Nav menu heading to each page~~
   - Simple icon
   - Opening/closing animation
-  - Styling and interactivity of the buttons
-- Footer
-  - Contains useful project information (Project link, Project name, Project languages, etc)
-  - Styling and interactivity of the links and related information
+  - ~~Styling and interactivity of the buttons~~
+- ~~Footer~~
+  - ~~Contains useful project information (Project link, Project name, Project languages, etc)~~
+  - ~~Styling and interactivity of the links and related information~~
 
 - Pages
-  - Home page
-    - Contains some simple information to cut into the different pages
-    - Pages include but not limited to; projects, social media, about, contact
-    - Summarys of the individual pages with *least* information given to prevent copy and pasting into other routes
+  - ~~Home page~~
+    - ~~Contains some simple information to cut into the different pages~~
+    - ~~Pages include but not limited to; projects, social media, about, contact~~
+    - ~~Summarys of the individual pages with *least* information given to prevent copy and pasting into other routes~~
   - Projects page
     - Projects will be grabbed from the GitHub API and put through into the page grabbing all my currently *public* projects
     - All projects will be in some sort of tiling function

@@ -1,0 +1,143 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    width: 100%;
+    align-items: center;
+}
+
+.blurb {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+}
+
+.blurb * {
+    margin: 10px;
+}
+
+.blurb-text {
+    width: 50%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #0f0d1f;
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #181632;
+    width: 80%;
+    height: 350px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+}
+
+.section-items {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+    height: 100%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0922;
+    border-radius: 10px;
+    margin: 10px;
+    flex-grow: 2;
+    width: 25%;
+    height: 100%;
+    transition: all 0.25s;
+    text-align: center;
+    text-wrap: pretty;
+}
+
+.item:hover {
+    background-color: #140f38;
+    width: 30%;
+}
+
+.item-title {
+    font-weight: bold;
+    margin: 5px;
+}
+
+.item-title a {
+    padding: 15px;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+
+.item-title a:link {
+    color: rgb(74, 105, 197);
+}
+
+.item-title a:visited {
+    color: rgb(61, 87, 165);
+}
+
+.item-title a:hover {
+    color: lightgray;
+    font-size: 18px;
+}
+
+.item-title a:active {
+    color: rgb(45, 45, 45);
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    width: 75%;
+}
+
+.item-content * {
+    margin: 5px;
+}
+
+.redirect {
+    display: flex;
+    align-self: end;
+    transition: all 0.1s;
+    font-size: 12px;
+    max-height: 10px;
+}
+
+.redirect:hover {
+    color: gray;
+    font-size: 12.3px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.redirect:hover .redirect-page {
+    color: rgb(74, 105, 197);
+}
+
+.redirect-page {
+    font-weight: bold;
+    color: rgb(61, 87, 165);
+}
+

@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #10121e, #1c1833);
+}
+
+.logo {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    padding: 10px;
+    transition: color 0.25s;
+}
+
+
+.nav-item:hover {
+    cursor: pointer;
+    color: gray;
+}
