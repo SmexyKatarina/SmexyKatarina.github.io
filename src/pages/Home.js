@@ -76,7 +76,7 @@ const Home = () => {
                 </div>
                 <div className="section">
                     <h3 className="section-title">Contact</h3>
-                    <p>Contact me with the information</p>
+                    <p className="section-subtitle">Contact me with the information</p>
                     <div className="section-items">
                         <div className="item">
                             <div className="item-title">Direct Contact</div>

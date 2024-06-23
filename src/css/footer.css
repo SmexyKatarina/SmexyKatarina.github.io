@@ -10,11 +10,12 @@
 }
 
 .footer * {
-    margin: 10px;
+    margin: 14px;
     font-size: 12px;
-    color: whitesmoke;
+    color: rgb(70, 70, 70);
 }
 
 .footer *:hover {
     color: gray;
+    cursor: pointer;
 }

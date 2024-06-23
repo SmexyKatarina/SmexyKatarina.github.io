@@ -1,0 +1,60 @@
+.projects-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.project-tile {
+    background-image: linear-gradient(to bottom right, rgb(22, 6, 60), rgb(40, 10, 110), rgb(22, 6, 60));
+    color: rgb(143, 174, 216);
+    border-radius: 5px;
+    min-height: 275px;
+    margin: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1 2 15%;
+    box-shadow: 4px 4px 10px rgba(135, 211, 255, 0.1);
+    transition: box-shadow .2s, padding .2s, margin .2s;
+}
+
+.project-tile:hover {
+    box-shadow: 8px 8px 5px rgba(135, 211, 255, 0.2);
+    padding: 18px;
+    margin: 17px;
+    cursor: pointer;
+}
+
+.project-tile > * {
+    margin: 10px;
+}
+
+.project-tile ul {
+    list-style: none;
+}
+
+.project-tile h5 {
+    text-decoration: underline;
+}
+
+.project-tile a:link {
+    color: inherit;
+}
+
+.project-tile a:visited {
+    color: inherit;
+}
+
+.project-tile a:hover {
+    color: rgb(104, 126, 156);
+}
+
+.project-tile a:active {
+    color: rgb(77, 94, 117);
+}

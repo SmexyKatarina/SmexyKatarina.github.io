@@ -11,6 +11,7 @@ const Header = () => {
         <div className="header">
             <h3 className="logo" onClick={() => navigate("/")}>LOGO</h3>
             <nav className="nav-menu">
+                <div className="nav-item" onClick={() => navigate("/")}>Home</div>
                 <div className="nav-item" onClick={() => navigate("/projects")}>Projects</div>
                 <div className="nav-item" onClick={() => navigate("/about")}>About</div>
                 <div className="nav-item" onClick={() => navigate("/contact")}>Contact</div>

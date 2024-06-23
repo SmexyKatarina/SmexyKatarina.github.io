@@ -4,6 +4,7 @@
 }
 html {
   min-height: 100vh;
+  scrollbar-gutter: stable;
 }
 body {
   margin: 0;
@@ -15,6 +16,7 @@ body {
   background-image: url("./img/1063.png");
   background-color: #0a0915;
   height: 100vh;
+  
 }
 
 code {
@@ -37,3 +39,4 @@ code {
   box-shadow: inset 0 0 3px rgb(48, 58, 117);
   border-radius: 5px;
 }
+
