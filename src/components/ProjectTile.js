@@ -12,6 +12,7 @@ const ProjectTile = (props) => {
 
     return (
         <div className="project-tile" onClick={() => window.open(repo_link, '_blank').focus()}>
+            <div className="project-tile-hover"></div>
             <h3 className="name"><a href={repo_link}>{project_name} ({category})</a></h3>
             <div className="project-info">
                 <h4 className="creation-date">Created on (from GH): {creation_date}</h4>

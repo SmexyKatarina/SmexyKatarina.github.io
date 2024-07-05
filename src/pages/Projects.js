@@ -15,8 +15,8 @@ const Projects = () => {
         <div className="projects">
             <Header />
             <div className="projects-container">
-                {projects.map(x => {
-                    return <ProjectTile project={x}/>
+                {projects.map((x, y) => {
+                    return <ProjectTile key={y} project={x}/>
                 })}
             </div>
             <Footer />  

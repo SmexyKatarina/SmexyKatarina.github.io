@@ -1,3 +1,7 @@
+.projects {
+    background-image: linear-gradient(to bottom, rgba(10, 0, 60, 0.7) 0%, rgba(25, 0, 110, 0.7) 50%, rgba(10, 0, 60, 0.7) 100%);
+}
+
 .projects-container {
     min-height: 100vh;
     display: flex;
@@ -22,6 +26,8 @@
     flex: 1 2 20%;
     box-shadow: 4px 4px 10px rgba(135, 211, 255, 0.1);
     transition: box-shadow .2s, padding .2s, margin .2s;
+    position: relative;
+    z-index: 0;
 }
 
 .project-tile:hover {
@@ -31,8 +37,24 @@
     cursor: pointer;
 }
 
+.project-tile-hover {
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity .5s linear;
+    border-radius: inherit;
+    background-image: linear-gradient(to right, rgb(33, 6, 60), rgb(50, 10, 110), rgb(33, 6, 60));
+}
+
+.project-tile:hover .project-tile-hover {
+    opacity: 1;
+}
+
 .project-tile > * {
     margin: 10px;
+    z-index: 2;
 }
 
 .project-tile ul {
