@@ -81,6 +81,7 @@
 .item-title {
     font-weight: bold;
     margin: 5px;
+    width: 100%;
 }
 
 .item-title a {
@@ -142,3 +143,22 @@
     color: rgb(61, 87, 165);
 }
 
+
+@media only screen and (max-width: 768px) {
+    .home {
+        padding-bottom: 0;
+    }
+
+    .item {
+        text-overflow: ellipsis;
+        max-height: 100%;
+        overflow: hidden;
+        font-size: 75%;
+    }
+
+    .redirect {
+        text-decoration: underline;
+        text-decoration-color: rgb(40, 61, 169);
+        text-decoration-thickness: 2px;
+    }
+}

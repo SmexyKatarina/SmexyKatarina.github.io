@@ -11,6 +11,7 @@
 }
 
 .about-seperator {
+    min-height: 4px;
     max-height: 4px;
     width: 70%;
     background-color: rgb(162, 235, 235);
@@ -70,4 +71,19 @@
 
 .italic {
     font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .about-container {
+        min-height: 80vh;
+    }
+
+    .about-section {
+        margin: 10px;
+    }
+
+    .about-section-content {
+        font-size: 90%;
+    }
 }
