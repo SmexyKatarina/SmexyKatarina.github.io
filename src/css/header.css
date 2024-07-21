@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     color: whitesmoke;
-    height: 50px;
+    height: 40px;
     width: 100%;
     background-image: linear-gradient(to bottom right, #10121e, #1c1833);
 }
@@ -32,4 +32,30 @@
 .nav-item:hover {
     cursor: pointer;
     color: gray;
+}
+
+.nav-active {
+    background-color: #0b081f;
+    color: lightskyblue;
+}
+
+@media only screen and (max-width: 426px) {
+    .logo {
+        display: none;
+    }
+
+    .nav-menu {
+        width: 100%;
+    }
+
+    .nav-item {
+        flex-grow: 2;
+        text-align: center;
+    }
+
+    .nav-item:active {
+        background-color: #0b081f;
+    }
+
+    
 }

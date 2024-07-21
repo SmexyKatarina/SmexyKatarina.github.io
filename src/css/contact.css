@@ -1,23 +1,29 @@
+.contact {
+    min-height: 100vh;
+    height: 100%;
+}
+
 .contacts {
     margin: 0 auto;
     position: relative;
     margin-top: 30px;
-    min-height: 70vh;
-    width: 80%;
+    min-height: 80vh;
+    width: 70%;
     display: flex;
     background-image: linear-gradient(to top right, rgb(20, 20, 80) 20%, rgb(40, 40, 100) 50%, rgb(60, 60, 120) 100%);
     box-shadow: 2px 0px 10px 2px rgb(80, 80, 140);
-    padding-bottom: 60px;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0;
+    border: 1px solid rgb(0, 0, 60);
+    border-radius: 10px;
 }
 
 .contact-item {
     width: 49%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-grow: 1;
     color: rgb(160, 160, 160);
@@ -25,6 +31,7 @@
 
 .contact-type {
     font-size: 20px;
+    margin-bottom: 10px;
 }
 
 .contact-info {
@@ -80,3 +87,19 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 426px) {
+    .contacts {
+        font-size: 70%;
+        height: 100%;   
+    }
+
+    .contact-type {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact-info {
+        font-size: 10px;
+    }
+}   

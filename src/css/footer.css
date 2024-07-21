@@ -22,9 +22,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .footer {
-        position: static;
-    }
 
     .footer * {
         text-decoration: underline;

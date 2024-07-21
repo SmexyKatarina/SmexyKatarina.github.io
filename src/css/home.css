@@ -146,7 +146,7 @@
 
 @media only screen and (max-width: 768px) {
     .home {
-        padding-bottom: 0;
+        padding-bottom: 40px;
     }
 
     .item {
@@ -160,5 +160,37 @@
         text-decoration: underline;
         text-decoration-color: rgb(40, 61, 169);
         text-decoration-thickness: 2px;
+    }
+}
+
+
+@media only screen and (max-width: 426px) {
+
+    .item {
+        min-height: 40%;
+        width: 100%;
+        margin: 5px auto;
+        padding: 10px 0;
+    }
+
+    .blurb {
+        margin-top: 20px;
+    }
+
+    .blurb-text {
+        width: 80%;
+    }
+
+    .section {  
+        height: 100%;
+        text-align: center;
+    }
+
+    .section-items {
+        flex-direction: column;
+    }
+
+    .redirect {
+        align-self: center;
     }
 }

@@ -1,5 +1,10 @@
+.about {
+    min-height: 100vh;
+    height: 100%;
+}
+
 .about-container {
-    min-height: 75vh;
+    min-height: 80vh;
     width: 80vw;
     background-color: rgb(7, 5, 42);
     display: flex;
@@ -8,6 +13,8 @@
     color: rgb(162, 235, 235);
     padding: 20px;
     flex-direction: column;
+    border: 1px darkslategray solid;
+    border-radius: 10px;
 }
 
 .about-seperator {
@@ -41,7 +48,7 @@
 .about-image-subtext {
     font-size: 10px;
     position: relative;
-    bottom: -135px;
+    top: 135px;
 }
 
 .about-assortment {
@@ -76,7 +83,7 @@
 @media only screen and (max-width: 768px) {
 
     .about-container {
-        min-height: 80vh;
+        min-height: 77vh;
     }
 
     .about-section {
@@ -86,4 +93,38 @@
     .about-section-content {
         font-size: 90%;
     }
+}
+
+@media only screen and (max-width: 426px) {
+
+    .about {
+        padding-bottom: 30px;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-image {
+        min-width: 90%;
+        min-height: 400px;
+        margin: 0;
+        justify-self: center;
+    }
+
+    .about-image-subtext {
+        top: 200px;
+    }
+
+    .about-section {
+        max-width: 75%;
+        text-align: center;
+    }
+
+    .about-assortment {
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }

@@ -24,10 +24,9 @@ const About = () => {
                             <h4>Hobbies</h4>
                         </div>
                         <div className="about-section-content">
-                            <p>- Tries making programming a full-time job</p>
-                            <p>- Likes Gaming on a regular</p>
-                            <p>- Enjoys looking at rocks :D</p>
-                            <p>- Enjoys being out in nature</p>
+                            <p>* Tries making programming a full-time job</p>
+                            <p>* Likes Gaming on a regular</p>
+                            <p>* Enjoys being out in nature</p>
                         </div>
                     </div>
                     <div className="about-section">
@@ -35,9 +34,9 @@ const About = () => {
                             <h4>Passions</h4>
                         </div>
                         <div className="about-section-content">
-                            <p>- Making people as happy as I can make them</p>
-                            <p>- Working efficiently and as hard as possible</p>
-                            <p>- Learning languages at least a little</p>
+                            <p>* Making people as happy as I can make them</p>
+                            <p>* Working efficiently and as hard as possible</p>
+                            <p>* Learning languages at least a little</p>
                         </div>
                     </div>
                     <div className="about-section">
