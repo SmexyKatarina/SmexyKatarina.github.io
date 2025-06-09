@@ -1,8 +1,13 @@
 @import "tailwindcss";
 
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --animation-dropIn: 0.2s linear dropIn;
+  --blend-color: linear-gradient(to right bottom, rgba(56, 187, 218, 0.3), rgba(1, 59, 72, 0.3)), url('/next.svg');
 }
 
 @theme inline {
@@ -16,6 +21,15 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+}
+
+@keyframes dropIn {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 0px
   }
 }
 

@@ -1,103 +1,70 @@
-import Image from "next/image";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import Link from "next/link";
+import ListObject from "../../components/listObject";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+export default function HomePage() {
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+	const sectionStyles = "flex flex-col items-center w-screen min-h-[600px] text-center [&_h2]:text-[2rem] [&_h3]:text-[1.75rem] [&>h2~p]:text-[1.25rem] ";
+
+	const inputStyles = "m-[10px] p-[10px] border-[2px] rounded-sm text-white placeholder:text-gray-400 focus:outline-2 focus:outline-offset-3 focus:outline-blue-400 "
+
+	return (
+		<div id="top" className="w-screen h-screen">
+			<Header />
+			<main id="content" className="mt-20px [&>div:not(.divider)]:p-[20px]">
+				<div className="divider relative">
+					<div id="about" className="absolute -top-[100px] h-[1px]"></div>
+				</div>
+				<div className={sectionStyles + "w-full bg-gray-800 [&>*]:m-[10px] [&>*]:w-[70%]"}>
+					<h2>About Me</h2>
+					<p>Im an aspiring software, website and modding developer. I have taken programming as a passion when I was younger, experimenting on various different little projects. During 2020, I took the time to delve into modding games and ended up finding back the spark to continue the journey. Started a full-stack course in 2023 and finished it in 2024 and now trying to get into the market.</p>
+					<p>This is a website dedicated to show my experience and what I've made over the years. Now that this is a more serious part of my life, Im trying to improve my skills every day and hopefully become a freelance in the future.</p>
+					<p>If you're interested in talking with me, <Link href="#contact" className="text-[#5588DD] underline underline-offset-2">contact me</Link> and ill get back to you as soon as I can.</p>
+				</div>
+				<div className="divider relative">
+					<div id="projects" className="absolute -top-[100px] h-[1px]"></div>
+				</div>
+				<div className={sectionStyles + "bg-(image:--blend-color) bg-no-repeat bg-center"}>
+					<div id="projects-and-skills" className={sectionStyles + "[&>*]:m-[10px] "}>
+						<h2>Projects & Skills</h2>
+						
+						<p className="w-[75%]">Here are some of my skills I've accumulated over the years and some of the projects associated with learning them.</p>
+						<div className="divider border-t-[1px] w-[75%]"></div>
+						<div id="skill-list" className="w-[75%]">
+							<div className="flex flex-wrap justify-center items-center">
+								<ListObject text="HTML/CSS/JS" type="Language"/>
+								<ListObject text="TypeScript" type="Language"/>
+								<ListObject text="C#" type="Language" />
+								<ListObject text="Java" type="Language" />
+								<ListObject text="React" type="Library"/>
+								<ListObject text="Next.JS/TailwindCSS" type="Framework"/>
+								<ListObject text="API Integration" type="API Related"/>
+								<ListObject text="Git/Github" type="Version Control"/>
+								<ListObject text="Express.js" type="Back-End"/>
+								<ListObject text="Passport/express-session" type="User Auth/Session"/>
+								<ListObject text="PostgreSQL/SQL" type="Database"/>
+								<ListObject text="Data Security/Hacks" type="Data Protection"/>
+								<ListObject text="DevOps" type="Dev Lifecycle"/>
+								<ListObject text="Unity" type="Graphics Engine" />
+							</div>
+						</div>
+						<div id="project-list">
+							{/** projects time :) */}
+						</div>
+					</div>
+				</div>
+				<div id="contact" className={sectionStyles + "bg-[#460526] [&_*]:grow"}>
+					<h2 className="max-h-[75px]">Contact Me</h2>
+					<form action="https://formspree.io/f/xjkrgjrz" method="POST" className="flex flex-col w-[50%] h-[100%]">
+						<input type="text" name="name" placeholder="Name*" required  className={inputStyles + "max-h-[60px]"}/>
+						<input type="email" name="email" placeholder="Email Address*" required  className={inputStyles + "max-h-[60px]"}/>
+						<textarea name="message" placeholder="Reason for contact or feedback*" required className={inputStyles + "grow"}></textarea>
+						<button type="submit" className={inputStyles + "max-h-[60px] min-w-[200px] self-center hover:cursor-pointer"}>Send</button>
+					</form>
+				</div>
+			</main>
+			<Footer />
+		</div>
+	);
 }
