@@ -7,7 +7,10 @@
   --foreground: #171717;
 
   --animation-dropIn: 0.2s linear dropIn;
-  --blend-color: linear-gradient(to right bottom, rgba(56, 187, 218, 0.3), rgba(1, 59, 72, 0.3)), url('/next.svg');
+  --background-cover: linear-gradient(to right bottom, rgba(10, 33, 38, 0.8), rgba(16, 56, 65, 0.6)), url('/projects_bg.jpg');
+  --about-tile: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/programming-words.jpg');
+  --project-tile: linear-gradient(to bottom, rgb(7, 76, 116) 30%, rgb(8, 20, 89) );
+  --skill-tile: linear-gradient(to right, #051851 30%, #1d54fd 50%, black 50%, #284bb7 50%, #032790 100%);
 }
 
 @theme inline {
