@@ -20,8 +20,8 @@ export default function HomePage() {
 				<div className={sectionStyles + "w-full bg-(image:--about-tile) bg-cover bg-center [&>*]:m-[10px] [&>*]:w-[70%] justify-evenly"}>
 					<h2>About Me</h2>
 					<p>Im an aspiring software, website and modding developer. I have taken programming as a passion when I was younger, experimenting on various different little projects. During 2020, I took the time to delve into modding games and ended up finding back the spark to continue the journey. Started a full-stack course in 2023 and finished it in 2024 and now trying to get into the market.</p>
-					<p>This is a website dedicated to show my experience and what I've made over the years. Now that this is a more serious part of my life, Im trying to improve my skills every day and hopefully become a freelance in the future.</p>
-					<p>If you're interested in talking with me, <Link href="#contact" className="text-[#5588DD] transition-all duration-300 underline underline-offset-2 hover:text-blue-200">contact me</Link> and ill get back to you as soon as I can.</p>
+					<p>This is a website dedicated to show my experience and what I&apos;ve made over the years. Now that this is a more serious part of my life, Im trying to improve my skills every day and hopefully become a freelance in the future.</p>
+					<p>If you&apos;re interested in talking with me, <Link href="#contact" className="text-[#5588DD] transition-all duration-300 underline underline-offset-2 hover:text-blue-200">contact me</Link> and ill get back to you as soon as I can.</p>
 				</div>
 				<div className="divider relative">
 					<div id="projects" className="absolute -top-[100px] h-[1px]"></div>
@@ -30,7 +30,7 @@ export default function HomePage() {
 					<div id="projects-and-skills" className={sectionStyles + "[&>*]:m-[10px] "}>
 						<h2>Projects & Skills</h2>
 						
-						<p className="w-[75%]">Here are some of my skills I've accumulated over the years and some of the projects associated with learning them.</p>
+						<p className="w-[75%]">Here are some of my skills I&apos;ve accumulated over the years and some of the projects associated with learning them.</p>
 						<div className="divider border-t-[1px] w-[75%]"></div>
 						<div id="skill-list" className="w-[75%]">
 							<div className="flex flex-col lg:flex-row flex-wrap justify-center items-center">
